@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675685925618,
+  "lastUpdate": 1675686094271,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -460,6 +460,42 @@ window.BENCHMARK_DATA = {
             "value": 104.68588437921959,
             "unit": "us/iter",
             "extra": "iterations: 6677\ncpu: 104.67335629773854 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "68400442+NogameNo-life@users.noreply.github.com",
+            "name": "Yana Sitkovets",
+            "username": "NogameNo-life"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca906740a76bdab276dc449a3f3d4f56b9a84625",
+          "message": "[doc] Add description of libraries (#545)",
+          "timestamp": "2023-02-06T15:18:12+03:00",
+          "tree_id": "2622ba33749d7bda4c58b6787b7c98db589495bc",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/ca906740a76bdab276dc449a3f3d4f56b9a84625"
+        },
+        "date": 1675686093037,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 25.490809277771383,
+            "unit": "us/iter",
+            "extra": "iterations: 26709\ncpu: 25.486884570743946 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 131.9729685681053,
+            "unit": "us/iter",
+            "extra": "iterations: 5154\ncpu: 131.95529685681026 us\nthreads: 1"
           }
         ]
       }
