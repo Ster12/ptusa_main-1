@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675763300085,
+  "lastUpdate": 1675763885541,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -824,6 +824,38 @@ window.BENCHMARK_DATA = {
             "value": 122.11947316730844,
             "unit": "us/iter",
             "extra": "iterations: 5702\ncpu: 122.09107330761137 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "323d1cdb01448957293a77bb9d09759c46ecf255",
+          "message": "Fix \"tolua++\" submodule name",
+          "timestamp": "2021-11-22T10:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/550/commits/323d1cdb01448957293a77bb9d09759c46ecf255"
+        },
+        "date": 1675763884630,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 25.598847264880632,
+            "unit": "us/iter",
+            "extra": "iterations: 27348\ncpu: 25.579691385110433 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 122.09821386379647,
+            "unit": "us/iter",
+            "extra": "iterations: 5756\ncpu: 120.89414523974983 us\nthreads: 1"
           }
         ]
       }
