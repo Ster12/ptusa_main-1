@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675763885541,
+  "lastUpdate": 1675764561253,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -856,6 +856,38 @@ window.BENCHMARK_DATA = {
             "value": 122.09821386379647,
             "unit": "us/iter",
             "extra": "iterations: 5756\ncpu: 120.89414523974983 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "13a700a84cdbb07a9c6a950f9a1f4b1b1f7c26ae",
+          "message": "Update GitHub action \"CodeQL\" to version \"v2\"",
+          "timestamp": "2021-11-22T10:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/551/commits/13a700a84cdbb07a9c6a950f9a1f4b1b1f7c26ae"
+        },
+        "date": 1675764560169,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 30.664279434850425,
+            "unit": "us/iter",
+            "extra": "iterations: 21658\ncpu: 30.659026687598118 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 144.21717539535786,
+            "unit": "us/iter",
+            "extra": "iterations: 4869\ncpu: 144.1970014376669 us\nthreads: 1"
           }
         ]
       }
