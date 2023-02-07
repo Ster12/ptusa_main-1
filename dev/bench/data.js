@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675768845571,
+  "lastUpdate": 1675768852733,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -920,6 +920,42 @@ window.BENCHMARK_DATA = {
             "value": 109.11892903930001,
             "unit": "us/iter",
             "extra": "iterations: 6412\ncpu: 109.10073300062385 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "01d22e3efc8d8ae3723e0c71f4eb97c3b9d667cd",
+          "message": "Update CodeQL to version \"v2\" (#551)",
+          "timestamp": "2023-02-07T14:19:25+03:00",
+          "tree_id": "66fdbd4cc3833a1c54d5d705b4e0b77f0f9acc88",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/01d22e3efc8d8ae3723e0c71f4eb97c3b9d667cd"
+        },
+        "date": 1675768852128,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.569439242893587,
+            "unit": "us/iter",
+            "extra": "iterations: 29692\ncpu: 23.565930216893438 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.7865605095524,
+            "unit": "us/iter",
+            "extra": "iterations: 6437\ncpu: 108.78084511418363 us\nthreads: 1"
           }
         ]
       }
