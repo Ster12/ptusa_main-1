@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1675693276800,
+  "lastUpdate": 1675753033135,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -592,6 +592,42 @@ window.BENCHMARK_DATA = {
             "value": 112.32634862384825,
             "unit": "us/iter",
             "extra": "iterations: 6213\ncpu: 112.31780138419442 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de3f25c266498f0c6ee87008204327698fda52f5",
+          "message": "Switch to \"fmt\" formatting library (#488)\n\n* Use \"fmt\" formatting library\r\n\r\n{fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams (https://github.com/fmtlib/fmt).\r\n\r\n* Correct compiler flags\r\n\r\n* Better code\r\n\r\n* Use new style to save device as Lua string\r\n\r\n* Add terminating zero\r\n\r\n* Add test\r\n\r\n* Refactor code\r\n\r\n* Fix after merging\r\n\r\n* Refactor method \"device::save_device\"",
+          "timestamp": "2023-02-07T09:53:59+03:00",
+          "tree_id": "266a4c756cebc3e638c9382e8844a2328615b8a0",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/de3f25c266498f0c6ee87008204327698fda52f5"
+        },
+        "date": 1675753032272,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 25.439930004005006,
+            "unit": "us/iter",
+            "extra": "iterations: 27473\ncpu: 25.432501000982782 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 119.60305748502667,
+            "unit": "us/iter",
+            "extra": "iterations: 5845\ncpu: 119.5829769033362 us\nthreads: 1"
           }
         ]
       }
