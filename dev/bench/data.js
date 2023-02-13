@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676272736513,
+  "lastUpdate": 1676279112421,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -1344,6 +1344,40 @@ window.BENCHMARK_DATA = {
             "value": 113.07770582524188,
             "unit": "us/iter",
             "extra": "iterations: 6180\ncpu: 112.99042071197412 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "9b5f4e29923353fdd02c6b3b6b1b39093520585b",
+          "message": "Fix \"tolua++\" submodule name (#550)",
+          "timestamp": "2023-02-07T12:14:38Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/9b5f4e29923353fdd02c6b3b6b1b39093520585b"
+        },
+        "date": 1676279111720,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.542824713804862,
+            "unit": "us/iter",
+            "extra": "iterations: 29700\ncpu: 23.539801346801347 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.71259429721883,
+            "unit": "us/iter",
+            "extra": "iterations: 6453\ncpu: 108.54886099488613 us\nthreads: 1"
           }
         ]
       }
