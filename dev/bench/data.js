@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676896032112,
+  "lastUpdate": 1676900369104,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -1796,6 +1796,38 @@ window.BENCHMARK_DATA = {
             "value": 110.00224152009946,
             "unit": "us/iter",
             "extra": "iterations: 6368\ncpu: 109.98417085427135 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "456e7d49299f1f3bc8ae787e34f8ea3347a328e5",
+          "message": "Add new control device \"V_IOL_TERMINAL_MIXPROOF_DO3\"",
+          "timestamp": "2021-11-22T10:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/555/commits/456e7d49299f1f3bc8ae787e34f8ea3347a328e5"
+        },
+        "date": 1676900368614,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 24.02885065268749,
+            "unit": "us/iter",
+            "extra": "iterations: 29187\ncpu: 24.02171514715456 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 113.91963333879497,
+            "unit": "us/iter",
+            "extra": "iterations: 6101\ncpu: 113.91393214227176 us\nthreads: 1"
           }
         ]
       }
