@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677482947997,
+  "lastUpdate": 1677483921741,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -2732,6 +2732,38 @@ window.BENCHMARK_DATA = {
             "value": 108.40076544356259,
             "unit": "us/iter",
             "extra": "iterations: 6459\ncpu: 108.39516953088717 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "alexandraneroda",
+            "username": "alexandraneroda"
+          },
+          "committer": {
+            "name": "alexandraneroda",
+            "username": "alexandraneroda"
+          },
+          "id": "307183bb8ba77754b1fe4108ae4b447ee61b30f0",
+          "message": "Eliminate code duplication in CIP classes",
+          "timestamp": "2022-07-13T08:59:56Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/527/commits/307183bb8ba77754b1fe4108ae4b447ee61b30f0"
+        },
+        "date": 1677483921210,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.39139535272452,
+            "unit": "us/iter",
+            "extra": "iterations: 29910\ncpu: 23.389709127382144 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.0414059436688,
+            "unit": "us/iter",
+            "extra": "iterations: 6427\ncpu: 109.01957367356465 us\nthreads: 1"
           }
         ]
       }
