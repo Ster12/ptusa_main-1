@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677590322549,
+  "lastUpdate": 1677590373815,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -3246,6 +3246,38 @@ window.BENCHMARK_DATA = {
             "value": 116.0375217825008,
             "unit": "us/iter",
             "extra": "iterations: 6014\ncpu: 116.0247921516462 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YarickBSTU",
+            "username": "YarickBSTU"
+          },
+          "committer": {
+            "name": "YarickBSTU",
+            "username": "YarickBSTU"
+          },
+          "id": "18bf95a0ec26d08eeb5c848c3e12475158155d79",
+          "message": "Added DEBUG_NO_IO_MODULES for wages_eth",
+          "timestamp": "2023-01-24T13:08:26Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/559/commits/18bf95a0ec26d08eeb5c848c3e12475158155d79"
+        },
+        "date": 1677590373327,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 30.641131812821932,
+            "unit": "us/iter",
+            "extra": "iterations: 22054\ncpu: 30.62740999365194 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 146.43433267673976,
+            "unit": "us/iter",
+            "extra": "iterations: 4569\ncpu: 146.4202013569709 us\nthreads: 1"
           }
         ]
       }
