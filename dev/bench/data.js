@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677590373815,
+  "lastUpdate": 1677654193594,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -3278,6 +3278,38 @@ window.BENCHMARK_DATA = {
             "value": 146.43433267673976,
             "unit": "us/iter",
             "extra": "iterations: 4569\ncpu: 146.4202013569709 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "12adcde4bf425bc0a5126cc3d5ea24839a3b461c",
+          "message": "Refactor classes to better terminal valve",
+          "timestamp": "2021-11-22T10:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/557/commits/12adcde4bf425bc0a5126cc3d5ea24839a3b461c"
+        },
+        "date": 1677654192990,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 28.571128215597824,
+            "unit": "us/iter",
+            "extra": "iterations: 24490\ncpu: 28.568668844426295 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 130.68881078558445,
+            "unit": "us/iter",
+            "extra": "iterations: 5359\ncpu: 130.67706661690622 us\nthreads: 1"
           }
         ]
       }
