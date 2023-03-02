@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677753361073,
+  "lastUpdate": 1677755105810,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -3662,6 +3662,42 @@ window.BENCHMARK_DATA = {
             "value": 120.9954648667378,
             "unit": "us/iter",
             "extra": "iterations: 5778\ncpu: 120.97791623399102 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e72aa0e68a236bb2f8d46ea8104b55802a8af076",
+          "message": "Add new control device \"V_IOL_TERMINAL_MIXPROOF_DO3_DI2\" (#557)\n\n* Refactor classes to better terminal valve\r\n\r\n* Refactor classes to better terminal valve\r\n\r\n* Fix tests\r\n\r\n* Fix code smells\r\n\r\n* Refactor tests\r\n\r\n* Better code\r\n\r\n* Fix code smells\r\n\r\n* Add tests\r\n\r\n* Fix code smells\r\n\r\n* Add new control devece \"valve_iol_terminal_mixproof_DO3_DI2\"\r\n\r\n* Refactor tests\r\n\r\n* Refactor tests\r\n\r\n* Fix bug with bit processing\r\n\r\n* Refactor tests\r\n\r\n* Refactor code\r\n\r\n* Fix code smells\r\n\r\n* Refactor tests\r\n\r\n* Refactor code\r\n\r\n* Refactor code",
+          "timestamp": "2023-03-02T14:00:15+03:00",
+          "tree_id": "cc44f9e6b7cf872e94f3bd90f32a4a169ebdbc66",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e72aa0e68a236bb2f8d46ea8104b55802a8af076"
+        },
+        "date": 1677755104392,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 31.043271952817296,
+            "unit": "us/iter",
+            "extra": "iterations: 22890\ncpu: 31.038733071210135 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 148.34242108546255,
+            "unit": "us/iter",
+            "extra": "iterations: 4809\ncpu: 148.30844250363904 us\nthreads: 1"
           }
         ]
       }
