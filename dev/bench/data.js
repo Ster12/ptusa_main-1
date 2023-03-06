@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1677834865740,
+  "lastUpdate": 1678093513074,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -3930,6 +3930,40 @@ window.BENCHMARK_DATA = {
             "value": 156.14757597815387,
             "unit": "us/iter",
             "extra": "iterations: 4396\ncpu: 156.11660600545952 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yaroslav Ozimok",
+            "username": "YarickBSTU",
+            "email": "102078275+YarickBSTU@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "76cc6e1032814495d73297a289eea76fd0dc3104",
+          "message": "Add \"DEBUG_NO_IO_MODULES\" for \"wages_eth\" (#559)",
+          "timestamp": "2023-03-02T11:42:38Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/76cc6e1032814495d73297a289eea76fd0dc3104"
+        },
+        "date": 1678093512301,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.302419022879697,
+            "unit": "us/iter",
+            "extra": "iterations: 30027\ncpu: 23.2985346521464 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.63892374624044,
+            "unit": "us/iter",
+            "extra": "iterations: 6321\ncpu: 110.63698781838319 us\nthreads: 1"
           }
         ]
       }
