@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678111697403,
+  "lastUpdate": 1678188353539,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -3996,6 +3996,38 @@ window.BENCHMARK_DATA = {
             "value": 147.09468089172873,
             "unit": "us/iter",
             "extra": "iterations: 4710\ncpu: 147.0561358811041 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "NogameNo-life",
+            "username": "NogameNo-life"
+          },
+          "committer": {
+            "name": "NogameNo-life",
+            "username": "NogameNo-life"
+          },
+          "id": "669421420caf0f96410bdef910dff984582810c8",
+          "message": "Add simulation temperature sensor ",
+          "timestamp": "2023-02-16T14:09:14Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/553/commits/669421420caf0f96410bdef910dff984582810c8"
+        },
+        "date": 1678188352177,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 24.571764481760816,
+            "unit": "us/iter",
+            "extra": "iterations: 28346\ncpu: 24.56572003104495 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 124.28516550863978,
+            "unit": "us/iter",
+            "extra": "iterations: 5613\ncpu: 124.22173525743808 us\nthreads: 1"
           }
         ]
       }
