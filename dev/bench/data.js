@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678453050829,
+  "lastUpdate": 1678707251772,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -4124,6 +4124,38 @@ window.BENCHMARK_DATA = {
             "value": 122.54601352063065,
             "unit": "us/iter",
             "extra": "iterations: 5695\ncpu: 122.54026338893765 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "alexandraneroda",
+            "username": "alexandraneroda"
+          },
+          "committer": {
+            "name": "alexandraneroda",
+            "username": "alexandraneroda"
+          },
+          "id": "9d2fc784a928e71447e6f8d3b921c5dc4e6e568f",
+          "message": "Code duplication in the TRecipeManager and TMediumRecipeManager classes",
+          "timestamp": "2022-07-13T08:59:56Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/562/commits/9d2fc784a928e71447e6f8d3b921c5dc4e6e568f"
+        },
+        "date": 1678707251155,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.906356307335766,
+            "unit": "us/iter",
+            "extra": "iterations: 29323\ncpu: 23.881751526105788 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 114.42744031787058,
+            "unit": "us/iter",
+            "extra": "iterations: 6166\ncpu: 113.56123905287056 us\nthreads: 1"
           }
         ]
       }
