@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679298184164,
+  "lastUpdate": 1679300003702,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -4540,6 +4540,38 @@ window.BENCHMARK_DATA = {
             "value": 115.52844755592254,
             "unit": "us/iter",
             "extra": "iterations: 6035\ncpu: 115.50566694283346 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "committer": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "id": "891b22d78d53db8e9cf8bee1c3906872760a78e9",
+          "message": "Add OPC UA lib via submodule",
+          "timestamp": "2021-12-15T13:17:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/564/commits/891b22d78d53db8e9cf8bee1c3906872760a78e9"
+        },
+        "date": 1679300002759,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.786779710837692,
+            "unit": "us/iter",
+            "extra": "iterations: 41845\ncpu: 16.742554666029392 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 95.47452877011474,
+            "unit": "us/iter",
+            "extra": "iterations: 7334\ncpu: 95.47242977911101 us\nthreads: 1"
           }
         ]
       }
