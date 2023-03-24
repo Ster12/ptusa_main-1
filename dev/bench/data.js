@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679666272469,
+  "lastUpdate": 1679666358841,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -5148,6 +5148,42 @@ window.BENCHMARK_DATA = {
             "value": 120.12930196749191,
             "unit": "us/iter",
             "extra": "iterations: 5845\ncpu: 119.77729683490163 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "68400442+NogameNo-life@users.noreply.github.com",
+            "name": "Yana Sitkovets",
+            "username": "NogameNo-life"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "821425df56a8f9874f2a0998d961b878ac535990",
+          "message": "[doc] Add short codestyle description (#565)",
+          "timestamp": "2023-03-24T16:55:24+03:00",
+          "tree_id": "36e9ed67b0f48526fee3a1cc011684c5a6d91ec2",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/821425df56a8f9874f2a0998d961b878ac535990"
+        },
+        "date": 1679666357738,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 28.880055969671062,
+            "unit": "us/iter",
+            "extra": "iterations: 23477\ncpu: 28.848992631085746 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 143.73648072240886,
+            "unit": "us/iter",
+            "extra": "iterations: 4928\ncpu: 143.71840503246753 us\nthreads: 1"
           }
         ]
       }
