@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679903972991,
+  "lastUpdate": 1679907289303,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -5216,6 +5216,42 @@ window.BENCHMARK_DATA = {
             "value": 128.02184033613028,
             "unit": "us/iter",
             "extra": "iterations: 5474\ncpu: 128.01379247351113 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9f54c1284d5cd00f5bf8516a7d6229fa6e172fd",
+          "message": "Fix terminal valves (#567)",
+          "timestamp": "2023-03-27T11:51:40+03:00",
+          "tree_id": "accfbbc152f48c9f2a2f5ff686940cd3a7ee8567",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a9f54c1284d5cd00f5bf8516a7d6229fa6e172fd"
+        },
+        "date": 1679907288047,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.42155781584589,
+            "unit": "us/iter",
+            "extra": "iterations: 29888\ncpu: 23.418428800856532 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 113.21347670656982,
+            "unit": "us/iter",
+            "extra": "iterations: 6182\ncpu: 113.20406017470074 us\nthreads: 1"
           }
         ]
       }
