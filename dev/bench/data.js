@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1679982261312,
+  "lastUpdate": 1679986038030,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -5414,6 +5414,38 @@ window.BENCHMARK_DATA = {
             "value": 114.05825085574004,
             "unit": "us/iter",
             "extra": "iterations: 6135\ncpu: 114.0443031784841 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "committer": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "id": "20ef5fd4a58bce2763c20e72c0634a4a2c2630e1",
+          "message": "fix Rinse volume and temperature in cold desinfection modes",
+          "timestamp": "2021-12-15T13:17:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/572/commits/20ef5fd4a58bce2763c20e72c0634a4a2c2630e1"
+        },
+        "date": 1679986037060,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.831877504505382,
+            "unit": "us/iter",
+            "extra": "iterations: 29397\ncpu: 23.795159370003745 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 113.14775621970985,
+            "unit": "us/iter",
+            "extra": "iterations: 6190\ncpu: 113.06932148626815 us\nthreads: 1"
           }
         ]
       }
