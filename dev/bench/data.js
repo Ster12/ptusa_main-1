@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680243164817,
+  "lastUpdate": 1680257092099,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -5710,6 +5710,38 @@ window.BENCHMARK_DATA = {
             "value": 144.25906103092316,
             "unit": "us/iter",
             "extra": "iterations: 4850\ncpu: 144.231587628866 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "58be58c8b4f77bb67963c864776cd339f3f172b6",
+          "message": "Fix terminal valve processing",
+          "timestamp": "2021-11-22T10:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/575/commits/58be58c8b4f77bb67963c864776cd339f3f172b6"
+        },
+        "date": 1680257091520,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 25.63462396073687,
+            "unit": "us/iter",
+            "extra": "iterations: 27303\ncpu: 25.631652199392008 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 125.27890873158564,
+            "unit": "us/iter",
+            "extra": "iterations: 5566\ncpu: 125.26895436579231 us\nthreads: 1"
           }
         ]
       }
