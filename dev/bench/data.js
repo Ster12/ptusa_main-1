@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680505315718,
+  "lastUpdate": 1680512615881,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -5874,6 +5874,40 @@ window.BENCHMARK_DATA = {
             "value": 114.90561165540828,
             "unit": "us/iter",
             "extra": "iterations: 5920\ncpu: 114.8677702702703 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "d875e1345432a6de3612d90ad4ac214beed8eab0",
+          "message": "Fix terminal valve processing (#575)",
+          "timestamp": "2023-03-31T11:57:08Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d875e1345432a6de3612d90ad4ac214beed8eab0"
+        },
+        "date": 1680512614825,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.989421465968427,
+            "unit": "us/iter",
+            "extra": "iterations: 29414\ncpu: 23.985901271503366 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.02359292737013,
+            "unit": "us/iter",
+            "extra": "iterations: 6306\ncpu: 111.01108468125595 us\nthreads: 1"
           }
         ]
       }
