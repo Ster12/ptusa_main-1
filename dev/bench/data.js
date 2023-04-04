@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680609913302,
+  "lastUpdate": 1680611594472,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -6104,6 +6104,42 @@ window.BENCHMARK_DATA = {
             "value": 148.46553127660306,
             "unit": "us/iter",
             "extra": "iterations: 4700\ncpu: 148.44708510638293 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2589847aa1a467a972ae67bea5ec70043d9e31df",
+          "message": "Add extra operation states (#507)\n\n* Fix path to benchmark result file (#578)\r\n\r\n* Better file names\r\n\r\n* Use new file names\r\n\r\n* Add extra operation states\r\n\r\n* Implement logic\r\n\r\n* Better file names\r\n\r\n* Use new file names\r\n\r\n* Fix after rebase\r\n\r\n* Use safe string formatting functions\r\n\r\n* Remove unsafe \"strlen\" function\r\n\r\n* Add test\r\n\r\n* Fix out of bound memory access possible bug\r\n\r\n* Replace \"final\" with \"finalize\" name\r\n\r\n* Use the \"nullptr\" literal\r\n\r\n* Refactor tests\r\n\r\n* Add test\r\n\r\n* Refactor code\r\n\r\n* Refactor test\r\n\r\n* Add processing of transition states of operations\r\n\r\n* Develop evaluate of operation test\r\n\r\n* Add test\r\n\r\n* Refactor code\r\n\r\n* Refactor tests\r\n\r\n* Refactor code\r\n\r\n* Add test\r\n\r\n* Fix code style\r\n\r\n* Refactor tests\r\n\r\n* Refactor code\r\n\r\n* Add tests\r\n\r\n* Remove code smells\r\n\r\n* Add tests\r\n\r\n* Refactor test\r\n\r\n* Add test\r\n\r\n* Fix switching off devices during action initialization\r\n\r\n* Add test\r\n\r\n* Refactor tests\r\n\r\n* Remove code smells\r\n\r\n\r\nRemove code smells\r\n\r\n* Fix \"operation::get_run_step()\" method\r\n\r\n* Refactor test\r\n\r\n* Add test\r\n\r\n* Add tests\r\n\r\n* Fix code smells\r\n\r\n* Refactor test\r\n\r\n* Fix \"get_active_step_set_time\" method\r\n\r\n* Add tests\r\n\r\n* [review] Fix typos\r\n\r\nCo-authored-by: Vasili Samuilik <43981812+Vasiliysamuilik@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Vasili Samuilik <Vasiliysamuilik@gmail.com>\r\nCo-authored-by: Vasili Samuilik <43981812+Vasiliysamuilik@users.noreply.github.com>",
+          "timestamp": "2023-04-04T15:21:23+03:00",
+          "tree_id": "60f196d2312c1dd920795b09e54843f3693635af",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2589847aa1a467a972ae67bea5ec70043d9e31df"
+        },
+        "date": 1680611593683,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.50065795956937,
+            "unit": "us/iter",
+            "extra": "iterations: 29631\ncpu: 23.499105666362933 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.84163551401807,
+            "unit": "us/iter",
+            "extra": "iterations: 6420\ncpu: 108.83257009345795 us\nthreads: 1"
           }
         ]
       }
