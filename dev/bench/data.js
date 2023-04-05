@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680686977424,
+  "lastUpdate": 1680698640642,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -6332,6 +6332,42 @@ window.BENCHMARK_DATA = {
             "value": 119.55092107515316,
             "unit": "us/iter",
             "extra": "iterations: 5841\ncpu: 119.5357986646122 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8fca9ceed07d505636e3c6af3c6c16d8afe74d6f",
+          "message": "[config][github actions] Update build workflow (#577)\n\n* Update build workflow\r\n\r\nRemove deprecated functionality (https://github.blog/changelog/2022-09-22-github-actions-all-actions-will-begin-running-on-node16-instead-of-node12/).\r\n\r\n* Add newline character",
+          "timestamp": "2023-04-05T15:42:25+03:00",
+          "tree_id": "82fc031e23c59b797462c3bccf1d164682384503",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/8fca9ceed07d505636e3c6af3c6c16d8afe74d6f"
+        },
+        "date": 1680698639646,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 25.361313668647643,
+            "unit": "us/iter",
+            "extra": "iterations: 27596\ncpu: 25.359410784171622 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 119.33557647661418,
+            "unit": "us/iter",
+            "extra": "iterations: 5858\ncpu: 119.29472516217137 us\nthreads: 1"
           }
         ]
       }
