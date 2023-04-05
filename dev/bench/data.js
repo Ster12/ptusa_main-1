@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680673476808,
+  "lastUpdate": 1680674311829,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -6172,6 +6172,38 @@ window.BENCHMARK_DATA = {
             "value": 136.29436228435125,
             "unit": "us/iter",
             "extra": "iterations: 5043\ncpu: 136.23622843545513 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "NogameNo-life",
+            "username": "NogameNo-life"
+          },
+          "committer": {
+            "name": "NogameNo-life",
+            "username": "NogameNo-life"
+          },
+          "id": "f62e76e595aa00d1a920c721ca8963c6b58c5883",
+          "message": "[doc] Add user manual",
+          "timestamp": "2023-02-16T14:09:14Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/561/commits/f62e76e595aa00d1a920c721ca8963c6b58c5883"
+        },
+        "date": 1680674311129,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 30.810383951362645,
+            "unit": "us/iter",
+            "extra": "iterations: 21547\ncpu: 30.7354156031002 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 163.1293813864312,
+            "unit": "us/iter",
+            "extra": "iterations: 4169\ncpu: 162.76337251139364 us\nthreads: 1"
           }
         ]
       }
