@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680699957063,
+  "lastUpdate": 1680761115891,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -6400,6 +6400,38 @@ window.BENCHMARK_DATA = {
             "value": 101.84783768412085,
             "unit": "us/iter",
             "extra": "iterations: 6857\ncpu: 101.82081085022605 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Vasiliysamuilik",
+            "username": "Vasiliysamuilik"
+          },
+          "committer": {
+            "name": "Vasiliysamuilik",
+            "username": "Vasiliysamuilik"
+          },
+          "id": "87589e477fdc857b4424cf3e0cba344078a9587c",
+          "message": "[doc] Edit system architecture scheme",
+          "timestamp": "2022-11-11T12:57:44Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/579/commits/87589e477fdc857b4424cf3e0cba344078a9587c"
+        },
+        "date": 1680761114703,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 33.107284978502214,
+            "unit": "us/iter",
+            "extra": "iterations: 22328\ncpu: 33.102046757434614 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 152.71259082814024,
+            "unit": "us/iter",
+            "extra": "iterations: 4492\ncpu: 152.67994211932327 us\nthreads: 1"
           }
         ]
       }
