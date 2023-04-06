@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680782888678,
+  "lastUpdate": 1680786073748,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -6728,6 +6728,42 @@ window.BENCHMARK_DATA = {
             "value": 125.579186297431,
             "unit": "us/iter",
             "extra": "iterations: 5561\ncpu: 125.55761553677398 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "artem.rudnitsky@gmail.com",
+            "name": "Artem Rudnitsky",
+            "username": "rartem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "760cf78b77a1c21ea5a1557e5228f2d432e5f625",
+          "message": "[cip] CIP modifications (#524)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2023-04-06T15:59:50+03:00",
+          "tree_id": "8f32fbeb7f1dbbf51fde2ec5be7a74e969135385",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/760cf78b77a1c21ea5a1557e5228f2d432e5f625"
+        },
+        "date": 1680786072601,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.66558599691693,
+            "unit": "us/iter",
+            "extra": "iterations: 39577\ncpu: 17.661988023346893 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 97.2399994447531,
+            "unit": "us/iter",
+            "extra": "iterations: 7204\ncpu: 97.23338423098278 us\nthreads: 1"
           }
         ]
       }
