@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680771779024,
+  "lastUpdate": 1680772704789,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -6596,6 +6596,42 @@ window.BENCHMARK_DATA = {
             "value": 108.86575789637439,
             "unit": "us/iter",
             "extra": "iterations: 6427\ncpu: 108.85763186556716 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "43981812+Vasiliysamuilik@users.noreply.github.com",
+            "name": "Vasili Samuilik",
+            "username": "Vasiliysamuilik"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fbc4e78734059947511cbb9f28740cc3fe9fb6a",
+          "message": "[doc] Edit system architecture scheme (#579)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2023-04-06T09:16:20Z",
+          "tree_id": "0658c746694cfc6342daf5ee0890e4fb6a10d7ae",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3fbc4e78734059947511cbb9f28740cc3fe9fb6a"
+        },
+        "date": 1680772703797,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 25.32908841739354,
+            "unit": "us/iter",
+            "extra": "iterations: 27619\ncpu: 25.326691770158224 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 119.11753374233187,
+            "unit": "us/iter",
+            "extra": "iterations: 5868\ncpu: 119.10531697341516 us\nthreads: 1"
           }
         ]
       }
