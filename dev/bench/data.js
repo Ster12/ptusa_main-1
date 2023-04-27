@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682576678555,
+  "lastUpdate": 1682577849604,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -7638,6 +7638,42 @@ window.BENCHMARK_DATA = {
             "value": 95.16595773882065,
             "unit": "us/iter",
             "extra": "iterations: 7359\ncpu: 95.16437015898899 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2aeb66af724bb874abb4a4104fa04f9f4338d3d1",
+          "message": "Add functions to control verbosity (#583)",
+          "timestamp": "2023-04-27T09:42:38+03:00",
+          "tree_id": "e5960602286edb36d5bae86e6f667206f8b0fa14",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2aeb66af724bb874abb4a4104fa04f9f4338d3d1"
+        },
+        "date": 1682577848951,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.496950726787613,
+            "unit": "us/iter",
+            "extra": "iterations: 37769\ncpu: 18.484770579046312 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 100.02070827951792,
+            "unit": "us/iter",
+            "extra": "iterations: 6969\ncpu: 100.015382407806 us\nthreads: 1"
           }
         ]
       }
