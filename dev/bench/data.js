@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682575913252,
+  "lastUpdate": 1682576678555,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -7606,6 +7606,38 @@ window.BENCHMARK_DATA = {
             "value": 98.82623709882617,
             "unit": "us/iter",
             "extra": "iterations: 7073\ncpu: 98.81657005513928 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "ddcc4b7e319de64fb5898e1edbed3013d77a3fb8",
+          "message": "Add functions to control verbosity",
+          "timestamp": "2021-11-22T10:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/583/commits/ddcc4b7e319de64fb5898e1edbed3013d77a3fb8"
+        },
+        "date": 1682576677318,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.35980743764562,
+            "unit": "us/iter",
+            "extra": "iterations: 40174\ncpu: 17.35297953900533 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 95.16595773882065,
+            "unit": "us/iter",
+            "extra": "iterations: 7359\ncpu: 95.16437015898899 us\nthreads: 1"
           }
         ]
       }
