@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1682684739723,
+  "lastUpdate": 1682931786283,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -7902,6 +7902,40 @@ window.BENCHMARK_DATA = {
             "value": 98.34494446805529,
             "unit": "us/iter",
             "extra": "iterations: 7059\ncpu: 98.33755489446098 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Yana Sitkovets",
+            "username": "NogameNo-life",
+            "email": "68400442+NogameNo-life@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "5a2fe0a7d29c2cd692c212539f3cce0e221e3412",
+          "message": "Add simulation for analog control modules (#553)",
+          "timestamp": "2023-04-28T12:24:17Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5a2fe0a7d29c2cd692c212539f3cce0e221e3412"
+        },
+        "date": 1682931785547,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.56461735559059,
+            "unit": "us/iter",
+            "extra": "iterations: 37740\ncpu: 18.56352941176471 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 99.25317808996853,
+            "unit": "us/iter",
+            "extra": "iterations: 7047\ncpu: 99.21691499929051 us\nthreads: 1"
           }
         ]
       }
