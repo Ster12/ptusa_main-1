@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683712794082,
+  "lastUpdate": 1683727057617,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8258,6 +8258,42 @@ window.BENCHMARK_DATA = {
             "value": 117.33001849672007,
             "unit": "us/iter",
             "extra": "iterations: 5947\ncpu: 117.29115520430467 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "68400442+NogameNo-life@users.noreply.github.com",
+            "name": "Yana Sitkovets",
+            "username": "NogameNo-life"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d762ed15ebc1aa766ba192808acb2ab58e2c557",
+          "message": "[doc] Add user manual (#561)",
+          "timestamp": "2023-05-10T16:55:03+03:00",
+          "tree_id": "148e9c5aa3d886a8202e30f86f67fe871c7cfb36",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5d762ed15ebc1aa766ba192808acb2ab58e2c557"
+        },
+        "date": 1683727056806,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.549042147928663,
+            "unit": "us/iter",
+            "extra": "iterations: 37748\ncpu: 18.546495178552505 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 98.64017307148819,
+            "unit": "us/iter",
+            "extra": "iterations: 7078\ncpu: 98.63181689742869 us\nthreads: 1"
           }
         ]
       }
