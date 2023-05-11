@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683786672944,
+  "lastUpdate": 1683787012104,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8358,6 +8358,38 @@ window.BENCHMARK_DATA = {
             "value": 134.82267418153324,
             "unit": "us/iter",
             "extra": "iterations: 5101\ncpu: 134.81352675945894 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Vasiliysamuilik",
+            "username": "Vasiliysamuilik"
+          },
+          "committer": {
+            "name": "Vasiliysamuilik",
+            "username": "Vasiliysamuilik"
+          },
+          "id": "84b54f8d099b2c6018af32f7936e62c0609c52cb",
+          "message": "[doc] Edit block diagram",
+          "timestamp": "2022-11-11T12:57:44Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/582/commits/84b54f8d099b2c6018af32f7936e62c0609c52cb"
+        },
+        "date": 1683787011402,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.676799077013584,
+            "unit": "us/iter",
+            "extra": "iterations: 37487\ncpu: 18.666844506095448 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 98.87185510117386,
+            "unit": "us/iter",
+            "extra": "iterations: 7067\ncpu: 98.8701429177869 us\nthreads: 1"
           }
         ]
       }
