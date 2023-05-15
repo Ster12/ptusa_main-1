@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684157758973,
+  "lastUpdate": 1684159465674,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8652,6 +8652,42 @@ window.BENCHMARK_DATA = {
             "value": 128.7369005766544,
             "unit": "us/iter",
             "extra": "iterations: 5029\ncpu: 128.65848081129448 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c20a1aec4cef0264afe64dbe202611b49ec662d",
+          "message": "Fix \"jump_if_action\" (#585)\n\nAction \"jump_if_action\" works correctly with any device type.",
+          "timestamp": "2023-05-15T17:01:26+03:00",
+          "tree_id": "fe572349e1b6a91fb2b3687a427aee6eeb3ad0c8",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/4c20a1aec4cef0264afe64dbe202611b49ec662d"
+        },
+        "date": 1684159464832,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 19.233454048410582,
+            "unit": "us/iter",
+            "extra": "iterations: 36397\ncpu: 19.23141742451301 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 99.52557715829758,
+            "unit": "us/iter",
+            "extra": "iterations: 7031\ncpu: 99.52015360546152 us\nthreads: 1"
           }
         ]
       }
