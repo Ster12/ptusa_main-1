@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1683898101206,
+  "lastUpdate": 1684141414895,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8522,6 +8522,40 @@ window.BENCHMARK_DATA = {
             "value": 98.64578712313502,
             "unit": "us/iter",
             "extra": "iterations: 7098\ncpu: 98.63238940546634 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Vasili Samuilik",
+            "username": "Vasiliysamuilik",
+            "email": "43981812+Vasiliysamuilik@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "a657a8aeba2dec3c532c51bf4527857cc6ee99da",
+          "message": "[doc] Edit block diagram (#582)",
+          "timestamp": "2023-05-12T13:26:52Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a657a8aeba2dec3c532c51bf4527857cc6ee99da"
+        },
+        "date": 1684141413625,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.075443445966098,
+            "unit": "us/iter",
+            "extra": "iterations: 30157\ncpu: 23.063835925324135 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 116.88386965240731,
+            "unit": "us/iter",
+            "extra": "iterations: 5984\ncpu: 116.86542446524064 us\nthreads: 1"
           }
         ]
       }
