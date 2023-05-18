@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684309375768,
+  "lastUpdate": 1684408957499,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8720,6 +8720,38 @@ window.BENCHMARK_DATA = {
             "value": 104.92714528245098,
             "unit": "us/iter",
             "extra": "iterations: 6656\ncpu: 104.92318209134616 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "YarickBSTU",
+            "username": "YarickBSTU"
+          },
+          "committer": {
+            "name": "YarickBSTU",
+            "username": "YarickBSTU"
+          },
+          "id": "de4b6b14f492bb9ef008d6ea06b26655818bb5d2",
+          "message": "Wages_ETH fixxes",
+          "timestamp": "2023-01-24T13:08:26Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/590/commits/de4b6b14f492bb9ef008d6ea06b26655818bb5d2"
+        },
+        "date": 1684408956758,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.728243767387177,
+            "unit": "us/iter",
+            "extra": "iterations: 37384\ncpu: 18.726695912689923 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 97.19274072529707,
+            "unit": "us/iter",
+            "extra": "iterations: 7197\ncpu: 97.18695289704046 us\nthreads: 1"
           }
         ]
       }
