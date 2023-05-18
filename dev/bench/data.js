@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684413165510,
+  "lastUpdate": 1684419376411,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8784,6 +8784,42 @@ window.BENCHMARK_DATA = {
             "value": 99.04923486134479,
             "unit": "us/iter",
             "extra": "iterations: 7068\ncpu: 99.04269949066213 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "102078275+YarickBSTU@users.noreply.github.com",
+            "name": "Yaroslav Ozimok",
+            "username": "YarickBSTU"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a8b9306d6198a4dbf69eca57a3497c06c347acfd",
+          "message": "Fix \"WT_ETH\" wages (#590)",
+          "timestamp": "2023-05-18T17:14:24+03:00",
+          "tree_id": "83cc9c2467a3e3853343a7f2bbae939c354aeed0",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a8b9306d6198a4dbf69eca57a3497c06c347acfd"
+        },
+        "date": 1684419374989,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.90890766040202,
+            "unit": "us/iter",
+            "extra": "iterations: 30377\ncpu: 22.898087368732924 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 115.53270854271089,
+            "unit": "us/iter",
+            "extra": "iterations: 5970\ncpu: 115.51005025125632 us\nthreads: 1"
           }
         ]
       }
