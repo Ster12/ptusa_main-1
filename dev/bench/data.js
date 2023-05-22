@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684745123136,
+  "lastUpdate": 1684746220278,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8920,6 +8920,40 @@ window.BENCHMARK_DATA = {
             "value": 118.32958916821285,
             "unit": "us/iter",
             "extra": "iterations: 5927\ncpu: 118.31086553062258 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Artem Rudnitsky",
+            "username": "rartem",
+            "email": "artem.rudnitsky@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "4ae1f472cb61173d522ffaa8f28e6df25f49cd27",
+          "message": "[cip] Using station params instead of constants (#587)\n\n* Use station parameter instead of constant\r\n\r\nUse station parameter instead of constant to determine absence of concentration on return\r\n\r\n* fix test\r\n\r\n* removed excess code\r\n\r\n* additional tests\r\n\r\n* Fix test\r\n\r\n* Moved implementation to cpp\r\n\r\n---------\r\n\r\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2023-05-22T08:43:26Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/4ae1f472cb61173d522ffaa8f28e6df25f49cd27"
+        },
+        "date": 1684746218823,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 25.856066557674847,
+            "unit": "us/iter",
+            "extra": "iterations: 27525\ncpu: 25.849126248864668 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 132.901834396033,
+            "unit": "us/iter",
+            "extra": "iterations: 5646\ncpu: 132.86106978391783 us\nthreads: 1"
           }
         ]
       }
