@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684739232561,
+  "lastUpdate": 1684745123136,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8884,6 +8884,42 @@ window.BENCHMARK_DATA = {
             "value": 97.69758959618605,
             "unit": "us/iter",
             "extra": "iterations: 7132\ncpu: 97.69202187324736 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "artem.rudnitsky@gmail.com",
+            "name": "Artem Rudnitsky",
+            "username": "rartem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4ae1f472cb61173d522ffaa8f28e6df25f49cd27",
+          "message": "[cip] Using station params instead of constants (#587)\n\n* Use station parameter instead of constant\r\n\r\nUse station parameter instead of constant to determine absence of concentration on return\r\n\r\n* fix test\r\n\r\n* removed excess code\r\n\r\n* additional tests\r\n\r\n* Fix test\r\n\r\n* Moved implementation to cpp\r\n\r\n---------\r\n\r\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2023-05-22T11:43:26+03:00",
+          "tree_id": "6182df8812d1a7c76966e7ca989a4bca69215cf4",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/4ae1f472cb61173d522ffaa8f28e6df25f49cd27"
+        },
+        "date": 1684745121688,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.48059399455877,
+            "unit": "us/iter",
+            "extra": "iterations: 29773\ncpu: 23.474617942431063 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 118.32958916821285,
+            "unit": "us/iter",
+            "extra": "iterations: 5927\ncpu: 118.31086553062258 us\nthreads: 1"
           }
         ]
       }
