@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1684419461586,
+  "lastUpdate": 1684739232561,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -8852,6 +8852,38 @@ window.BENCHMARK_DATA = {
             "value": 97.7087972518259,
             "unit": "us/iter",
             "extra": "iterations: 7132\ncpu: 97.62466348850252 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "committer": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "id": "4b9ec56d2ff2158ba9e8af6aecadba811344be42",
+          "message": "[cip] Using station params instead of constants",
+          "timestamp": "2021-12-15T13:17:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/587/commits/4b9ec56d2ff2158ba9e8af6aecadba811344be42"
+        },
+        "date": 1684739231957,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 19.669801775979117,
+            "unit": "us/iter",
+            "extra": "iterations: 35586\ncpu: 19.66735232956781 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 97.69758959618605,
+            "unit": "us/iter",
+            "extra": "iterations: 7132\ncpu: 97.69202187324736 us\nthreads: 1"
           }
         ]
       }
